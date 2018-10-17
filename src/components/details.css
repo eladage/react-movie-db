@@ -1,0 +1,117 @@
+.movie-Details {
+    padding-top: 2em;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-areas: 
+    "poster poster poster poster poster"
+    "NameH Name Name Name Name"
+    "ReleaseH Release Release Release Release"
+    "ActorH Photo Actor Role Details"
+    "GenreH Genre Genre Genre Genre"
+    "LanguageH Language Language Language Language"
+    "DirectorH Director Director Director Director"
+    "StudioH Studio Studio Studio Studio"
+    "PlotH Plot Plot Plot Plot"
+    "PlotH Plot Plot Plot Plot";
+}
+
+.movie-Poster {
+    grid-area: poster;
+    justify-self: stretch;
+}
+
+.move-NameH {
+    grid-area: NameH;
+    justify-self: end;
+}
+
+.movie-Name {
+    grid-area: Name;
+    justify-self: start;
+}
+
+.move-ReleaseH {
+    grid-area: ReleaseH;
+    justify-self: end;
+}
+
+.movie-Release {
+    grid-area: Release;
+    justify-self: start;
+}
+
+.move-ActorH {
+    grid-area: ActorH;
+    justify-self: end;
+}
+
+.move-Photo {
+    grid-area: Photo;
+}
+.movie-Actor {
+    grid-area: Actor;
+    justify-self: start;
+}
+
+.actor-Role {
+    grid-area: Role;
+    justify-self: start;
+}
+
+.actor-Details {
+    grid-area: Details;
+    justify-self: start;
+}
+
+.movie-GenreH {
+    grid-area: GenreH;
+    justify-self: end;
+}
+
+.movie-Genre {
+    grid-area: Genre;
+    justify-self: start;
+}
+
+.movie-LanguageH {
+    grid-area: LanguageH;
+    justify-self: end;
+}
+
+.movie-Language {
+    grid-area: Language;
+    justify-self: start;
+}
+
+.movie-DirectorH {
+    grid-area: DirectorH;
+    justify-self: end;
+}
+
+.movie-Director {
+    grid-area: Director;
+    justify-self: start;
+}
+
+.movie-StudioH {
+    grid-area: StudioH;
+    justify-self: end;
+}
+
+.movie-Studio {
+    grid-area: Studio;
+    justify-self: start;
+}
+
+.movie-PlotH {
+    grid-area: plotH;
+    justify-self: end;
+}
+
+.movie-Plot {
+    grid-area: plot;
+    justify-self: start;
+}
+
