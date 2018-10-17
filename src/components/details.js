@@ -10,7 +10,7 @@ class Details extends Component {
       this.handleSubmit = this.handleSubmit.bind(this);
     }
   
-    /*
+    
     handleChange(event) {
       this.setState({value: event.target.value});
     }
@@ -20,7 +20,7 @@ class Details extends Component {
       event.preventDefault();
     }
 
-    */
+    
   
     render() {
       return (

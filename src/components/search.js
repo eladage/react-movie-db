@@ -17,7 +17,7 @@ class Search extends Component {
   
     handleSubmit(event) {
       alert('A name was submitted: ' + this.state.value);
-      <Details />
+      
       event.preventDefault();
     }
   
@@ -30,6 +30,7 @@ class Search extends Component {
             <input type="text" value={this.state.value} onChange={this.handleChange} />
           </label>
           <input type="submit" value="Search" />
+          <Details />
         </form>
         </div>
       );
