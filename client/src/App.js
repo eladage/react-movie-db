@@ -5,6 +5,7 @@ import Starscape_blueBG from './Starscape_blueBG.jpg'
 import revJHawk from './jhawk-favicon-reverse.png'
 import './App.css';
 import Search from './components/search';
+import Details from './components/details';
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           
         </header>
         <Search />
+        
       </div>
     );
   }

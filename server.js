@@ -26,9 +26,12 @@ db.connect(function(err) {
             for (let index = 0; index < results.length; index++) {
                 
                 movies[index] = {
-                    MovieName: results[index].MovieName
+                    id:             results[index].MovieID,
+                    MovieName:      results[index].MovieName,
+                    ReleaseDate:    results[index].ReleaseDate
+                    
                 }
-                console.log(movies[index].MovieName);
+                console.log(movies[index]);
             }
             
             res.json(movies);
