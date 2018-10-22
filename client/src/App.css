@@ -17,15 +17,18 @@ Uncomment if you're feeling crazy...
   height: 80px;
 } */
 
+.App-KU {
+  vertical-align: middle;
+}
 .Starscape_blueBG {
-  height: 248px;
+  height: 200px;
 }
 
 .App-header {
-  background-color: #0051ba ;
-  height: 248px;
-  padding: 20px;
-  color: #0051ba;
+  background-color: #104BAF ;
+  height: 200px;
+  padding: 0px;
+  color: black;
 }
 
 .App-title {

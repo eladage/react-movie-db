@@ -26,7 +26,7 @@ class Search extends Component {
         <div className="App-search">
         <form onSubmit={this.handleSubmit}>
           <label>
-            Keyword:
+            Search Movies:  
             <input type="text" value={this.state.value} onChange={this.handleChange} />
           </label>
           <input type="submit" value="Search" />
