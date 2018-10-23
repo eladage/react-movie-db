@@ -22,7 +22,7 @@ render() {
       <h3>Movies</h3>
       <ul>
       {this.state.movies.map(movies => 
-        <li key={movies.id}>{movies.MovieName}, {movies.ReleaseDate}</li>
+        <li key={movies.id}>{movies.MovieName}</li>
       )}
       </ul>
     </div>
