@@ -15,7 +15,7 @@ class App extends Component {
         <header className="App-header">
           <img src={jhawk} className="App-KU" alt="jhawk" />
           <img src={Starscape_blueBG} className="Starscape_blueBG" alt="Starscape_blueBG" />
-          <img src={revJHawk} ClassName="App-header" alt="left angry jayhawk" />
+          <img src={revJHawk} ClassName="App-KU-reverse" alt="left angry jayhawk" />
           
         </header>
         <Search />
