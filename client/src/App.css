@@ -18,8 +18,13 @@ Uncomment if you're feeling crazy...
 } */
 
 .App-KU {
-  vertical-align: middle;
+  vertical-align: text-bottom;
 }
+
+.App-KU-reverse {
+  vertical-align: top;
+}
+
 .Starscape_blueBG {
   height: 200px;
 }
