@@ -9,8 +9,8 @@ var movies = [];
 const db = mysql.createConnection({
     host : 'sceva.net',
     port: 6603,
-    user : 'eladage',
-    password : 'PleaseChangThisPassword2018!',
+    user : 'mdb',
+    password : 'hF8%kGJq$SLg',
     database : 'IT414'
 });
 
